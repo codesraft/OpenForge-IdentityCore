@@ -4,7 +4,7 @@ const RegisterPage = () => {
     return (
         <main className="min-h-screen flex items-center justify-center px-4">
             <div className="w-full max-w-md rounded-xl">
-                <p className='text-center'>Sign up to get started</p>
+                <p className='text-center text-xl font-bold'>Sign up to get started</p>
 
                 <form className="mt-6 space-y-4">
                     <div>
