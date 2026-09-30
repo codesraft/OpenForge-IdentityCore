@@ -12,7 +12,7 @@ const RegisterPage = () => {
                         <input
                             type="text"
                             placeholder="Enter Your Name"
-                            className="w-full p-2 rounded-lg border border-gray-300"
+                            className="w-full px-3 py-2 rounded-lg border border-gray-300"
                         />
                     </div>
 
@@ -21,7 +21,7 @@ const RegisterPage = () => {
                         <input
                             type="email"
                             placeholder="Enter Your Email"
-                            className="w-full p-2 rounded-lg border border-gray-300"
+                            className="w-full px-3 py-2 rounded-lg border border-gray-300"
                         />
                     </div>
 
@@ -30,7 +30,7 @@ const RegisterPage = () => {
                         <input
                             type="password"
                             placeholder="Password"
-                            className="w-full p-2 rounded-lg border border-gray-300"
+                            className="w-full px-3 py-2 rounded-lg border border-gray-300"
                         />
                     </div>
 
@@ -39,7 +39,7 @@ const RegisterPage = () => {
                         <input
                             type="password"
                             placeholder="Confirm Your Password"
-                            className="w-full p-2 rounded-lg border border-gray-300"
+                            className="w-full px-3 py-2 rounded-lg border border-gray-300"
                         />
                     </div>
 
@@ -55,7 +55,7 @@ const RegisterPage = () => {
 
                 <p className="text-gray-700 mt-4 text-center">
                     Already Have an Account?{" "}
-                    <a className='text-blue-900' href="/login">Login</a>
+                    <a className='text-blue-900 hover:underline' href="/login">Login</a>
                 </p>
             </div>
         </main>
