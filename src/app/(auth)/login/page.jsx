@@ -1,3 +1,4 @@
+import Button from '@/components/ui/Button'
 import React from 'react'
 
 const LoginPage = () => {
@@ -36,12 +37,9 @@ const LoginPage = () => {
 
 
                     <div className="flex justify-center">
-                        <button
-                            type="submit"
-                            className="px-6 py-2 rounded-lg bg-black text-white hover:bg-gray-700 cursor-pointer"
-                        >
+                        <Button type="submit">
                             Login
-                        </button>
+                        </Button>
                     </div>
                 </form>
 

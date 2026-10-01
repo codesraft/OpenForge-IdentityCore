@@ -1,4 +1,5 @@
 
+import Button from '@/components/ui/Button'
 import React from 'react'
 import { CgProfile } from 'react-icons/cg'
 
@@ -28,12 +29,11 @@ const ProfilePage = () => {
                     </div>
 
                     <div className="flex justify-end pt-2">
-                        <button
-                            type="button"
-                            className="px-4 py-2 text-sm rounded-lg bg-black text-white hover:bg-gray-700 cursor-pointer"
-                        >
+
+
+                        <Button type="submit">
                             Update Profile
-                        </button>
+                        </Button>
                     </div>
 
                 </div>
@@ -68,12 +68,11 @@ const ProfilePage = () => {
                         </div>
 
                         <div className="flex justify-center pt-2">
-                            <button
-                                type="submit"
-                                className="px-6 py-2 rounded-lg bg-black text-white hover:bg-gray-700 cursor-pointer"
-                            >
+
+
+                            <Button type="submit">
                                 Change Password
-                            </button>
+                            </Button>
                         </div>
 
                     </form>

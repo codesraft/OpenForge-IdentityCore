@@ -1,3 +1,4 @@
+import Button from '@/components/ui/Button'
 import React from 'react'
 
 const ForgotPassword = () => {
@@ -23,11 +24,11 @@ const ForgotPassword = () => {
 
 
                     <div className="flex justify-center">
-                        <button
-                            type="submit"
-                            className="px-6 py-2 rounded-lg bg-black text-white hover:bg-gray-700 cursor-pointer"
-                        >
-                            Send Reset Link                        </button>
+
+
+                        <Button type="submit">
+                            Reset Password
+                        </Button>
                     </div>
                 </form>
 

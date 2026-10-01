@@ -1,3 +1,4 @@
+import Button from '@/components/ui/Button'
 import React from 'react'
 
 const RegisterPage = () => {
@@ -44,12 +45,11 @@ const RegisterPage = () => {
                     </div>
 
                     <div className="flex justify-center">
-                        <button
-                            type="submit"
-                            className="px-6 py-2 rounded-lg bg-black text-white hover:bg-gray-700 cursor-pointer"
-                        >
+
+
+                        <Button type="submit">
                             Sign Up
-                        </button>
+                        </Button>
                     </div>
                 </form>
 

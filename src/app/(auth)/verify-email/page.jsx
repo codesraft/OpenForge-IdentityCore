@@ -1,3 +1,4 @@
+import Button from '@/components/ui/Button'
 import React from 'react'
 
 const VerifyEmailPage = () => {
@@ -14,12 +15,12 @@ const VerifyEmailPage = () => {
                 </p>
 
                 <div className="flex justify-center mt-6">
-                    <button
-                        type="button"
-                        className="px-6 py-2 rounded-lg bg-black text-white hover:bg-gray-700 cursor-pointer"
-                    >
+
+
+                    <Button type="submit">
                         Resend Verification Email
-                    </button>
+
+                    </Button>
                 </div>
 
                 <p className="text-gray-700 mt-4">
